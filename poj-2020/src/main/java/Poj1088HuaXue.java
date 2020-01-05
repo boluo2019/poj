@@ -108,8 +108,6 @@ public class Poj1088HuaXue {
         return maxLength_i_j;
     }
 
-    // todo 面向对象版本
-
     public static void main(String[] args) {
         // input
         /*

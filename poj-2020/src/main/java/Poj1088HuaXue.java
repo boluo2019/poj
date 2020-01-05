@@ -1,11 +1,10 @@
-import com.sun.rowset.internal.Row;
-
 import java.util.Scanner;
 
 /**
+ * 注意在线提交的时候将类名改为Main
  * @author boluo
  */
-public class Poj1088 {
+public class Poj1088HuaXue {
 
     /**
      * 题目链接： http://poj.org/problem?id=1088
@@ -77,7 +76,7 @@ public class Poj1088 {
         int res = 0;
         for (int i = 0; i < RowNum; i++) {
             for (int j = 0; j < ColNum; j++) {
-               res = Math.max(res, getMaxLength(i, j, height, maxLength));
+                res = Math.max(res, getMaxLength(i, j, height, maxLength));
             }
         }
         System.out.println(res);

@@ -4,7 +4,7 @@ import java.util.Scanner;
  * 注意在线提交的时候将类名改为Main
  * @author boluo
  */
-public class Poj0000 {
+public class Poj1000MplusN {
 
     /**
      * 题目链接：

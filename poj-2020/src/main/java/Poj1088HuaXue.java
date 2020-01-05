@@ -79,6 +79,7 @@ public class Poj1088HuaXue {
                 res = Math.max(res, getMaxLength(i, j, height, maxLength));
             }
         }
+
         System.out.println(res);
     }
 
